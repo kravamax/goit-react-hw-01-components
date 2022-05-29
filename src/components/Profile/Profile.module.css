@@ -23,6 +23,8 @@
   width: 120px;
   height: 120px;
   border-radius: 50%;
+
+  background-color: #bdbdbd;
 }
 
 .name {
@@ -55,8 +57,11 @@
 .stats li {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
 
-  padding: 26px;
+  padding: 26px 0;
 
   border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
